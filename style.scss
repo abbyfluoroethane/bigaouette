@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 'EB Garamond';
+  font: 26px/1.4 'EB Garamond';
   color: $black;
 }
 
@@ -70,7 +70,7 @@ p {
 
 a {
   color: $blue;
-  text-decoration: none;
+  text-decoration: underline;
 	cursor: pointer;
   &:hover, &:active {
     color: $blue;
@@ -163,22 +163,9 @@ img {
   }
 }
 
-.site-avatar {
-  float: left;
-  width: 70px;
-  height: 70px;
-  margin-right: 15px;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-
   img {
     border-radius: 5px;
   }
-}
 
 .site-info {
   float: left;
@@ -196,7 +183,7 @@ img {
   cursor: pointer;
   font-family: 'EB Garamond';
   font-weight: 400;
-  font-size: 36pt;
+  font-size: 36px;
   letter-spacing: 1px;
 }
 
