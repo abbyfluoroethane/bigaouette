@@ -18,37 +18,37 @@ html {
 }
 
 body {
-	background: $white;
-  font: 26px/1.4 'EB Garamond';
-  color: $black;
+  background: #fff;
+  font: 24px/1.4 'EB Garamond';
+  color: #000;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 1770px;
+  max-width: 1740px;
   padding: 0 10px;
   width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Barlow';
-  color: $black;
-  font-weight: 400;
-
+  color: #000;
+  font-weight: 700;
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
-
-  @include mobile {
+}
+@media screen and (max-width: 640px) {
+  h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
   }
 }
 
 h1 {
   font-size: 30px;
-  a {
-    color: inherit;
-  }
+}
+h1 a {
+  color: inherit;
 }
 
 h2 {
@@ -61,7 +61,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: #666;
 }
 
 p {
@@ -69,12 +69,12 @@ p {
 }
 
 a {
-  color: $blue;
-  text-decoration: underline;
-	cursor: pointer;
-  &:hover, &:active {
-    color: $blue;
-  }
+  color: #4183C4;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover, a:active {
+  color: #4183C4;
 }
 
 ul, ol {
@@ -110,37 +110,35 @@ img {
   max-width: 100%;
 }
 
-// Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
 }
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: #666;
 }
 
-// Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $lightGray;
-}
-::selection {
-  color: $black;
-  background: $lightGray;
+  color: #000;
+  background: #eee;
 }
 
-// Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
+::selection {
+  color: #000;
+  background: #eee;
+}
+
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
+
 
 /*********************/
 /* LAYOUT / SECTIONS */
@@ -151,12 +149,12 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-top: 15px;
+  box-shadow: 0px 5px 10px lightgray;
 }
 
 .masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  padding: 10px 0;
 
   @include mobile {
     text-align: center;
@@ -183,15 +181,15 @@ img {
   cursor: pointer;
   font-family: 'EB Garamond';
   font-weight: 400;
-  font-size: 36px;
-  letter-spacing: 1px;
+  font-size: 28px;
+  letter-spacing: 0px;
 }
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
-  font-size: 18px;
+  margin-top: 15px;
+  font-family: Barlow;
+  font-size: 22px;
 
   @include mobile {
     float: none;
