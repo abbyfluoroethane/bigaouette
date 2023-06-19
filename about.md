@@ -20,7 +20,7 @@ In addition to my day job, I am in my sixth year of being a freelance digital ar
 
 <h2>Download My Resume</h2>
 
-[Download Here](https://astroabby.me/files/Abby_Bigaouette_Resume_v2_revision_5.pdf)   
+[Download Here](https://bigaouette.com/files/Resume_v4.8.pdf)   
 
 
 <h2>Tools of the Trade</h2>
