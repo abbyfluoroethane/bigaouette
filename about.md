@@ -37,7 +37,7 @@ In addition to my day job, I am in my sixth year of being a freelance digital ar
     <li>Blender</li>
 </ul>
 
-<h2>Hardware</h2>
+<h3>Hardware</h3>
 
 <ul>
     <li>M1 iPad Air and Apple Pencil</li>
