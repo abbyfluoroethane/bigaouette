@@ -190,10 +190,6 @@ img {
   font-weight: 400;
   font-size: 36px;
   letter-spacing: 0px;
-  
-  @include mobile {
-    font-size: 28px;
-  }
 }
 
 nav {
@@ -217,7 +213,6 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
     }
   }
 }
