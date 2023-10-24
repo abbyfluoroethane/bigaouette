@@ -69,6 +69,11 @@ h5 {
   font-size: 6.5vw;
   margin-top: 0px;
   white-space: nowrap;
+  @include mobile {
+    white-space: wrap; 
+    font-size: 52px; 
+    margin-top: 55px;
+  }
 }
 
 p {
